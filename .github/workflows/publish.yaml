@@ -22,7 +22,7 @@ jobs:
         run: echo "exists=true" >> $GITHUB_OUTPUT
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-          DISABLE_RELEASE: ${{ variables.DISABLE_RELEASE }}
+          DISABLE_RELEASE: ${{ vars.DISABLE_RELEASE }}
 
   release-please:
     name: release-please
