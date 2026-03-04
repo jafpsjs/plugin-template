@@ -35,7 +35,7 @@
     "!dist/**/__tests__/**/*"
   ],
   "devDependencies": {
-    "@joshuaavalon/eslint-config-javascript": "^11.0.2",
+    "@joshuaavalon/eslint-config-javascript": "^11.0.3",
     "@joshuaavalon/eslint-config-typescript": "^11.0.0",
     "@types/node": "^25.3.3",
     "eslint": "^10.0.2",
